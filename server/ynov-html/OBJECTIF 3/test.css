@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+}
+#start{
+    width: 1300px;
+    height: 40px;
+    background: #ffb400;
+    margin: 0 auto;
+}
+#startleft{
+    width: 700;
+    height: 50px;
+    text-align: center;
+}
+#startleft p{
+    width: 230px;
+    height: 34px;
+    margin: 0 auto;
+    font-size: 14;
+    color: #fff5e2;
+    padding-top: 9px;
+}
+#startleft p strong{
+    color: #fff4ee;
+    font-family: arial,
+}
+
+.message{
+    float: left;
+    padding-top: 8px;
+    margin-left: 30px;
+    text-align: center;
+}
+#startleft h1{
+    width: 140;
+    height: 37px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #fffdfa;
+    padding-top: 6px;
+
+}
+#startleft h1 i{
+    font-size: 16;
+
+}
+#startleft h2{
+    width: 210;
+    height: 32px;
+    margin: 0 auto;
+    font-size: 14;
+    color: #fffdfa;
+    padding-top: 5;
+}
+#startleft h2 i{
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+#startright{
+    width: 400px;
+    height: 20px;
+    float: right;
+    text-align: right;
+    padding-top: 15px;
+    padding-right: 60px;
+    color: white;
+}
+#startright i{
+    margin-left: 20px;
+}
+
+
+#header{
+    width: 1300px;
+    margin: 0 auto;
+	height: 100px;
+	background: rgb(255, 255, 255);
+}
+#headerleft{
+	width: 500px;
+	height: 70px;
+	padding-left: 50px;
+}
+#headerleft h1{
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 30px;
+	padding-top: 0;
+}
+
+#headerleft i{
+	color: #ffb400;
+}
+#headerleft h2 span{
+	color: #ffb400;
+}
+#headerleft h2{
+	margin-top: -40px;
+	font-size: 12px;
+}
+#links{
+	width: 725px;
+	height: 40px;
+	padding-left: 450px;
+	margin-top: -38px;
+}
+#links a{
+	text-decoration: none;
+	margin-left: 40px;
+	color: rgb(42, 54, 65);
+}
+#links i{
+	margin-left: 40px;
+	color: rgb(42, 54, 65);
+}
+
+#business{
+	width: 1300px;
+    height: 650px;
+    margin: 0 auto;
+    background: url(test.jpeg);
+}
+#businessright{
+	width: 450px;
+	height: 450px;
+	margin-right: 70px;
+	margin-top: 70px;
+	background: orange;
+}

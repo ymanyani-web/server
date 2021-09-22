@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Ex3</title>
+</head>
+
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Vos coordonees</legend>
+            <label for="fname">Quel est votre nom?</label> <br>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Quel est votre prenom?</label> <br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="email">Quel est votre e-mail?</label> <br>
+            <input type="email" id="email" name="email"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Votre souhait</legend>
+            <p>Faire un souhait que voudriez vous voir exauce:</p>
+            <input type="radio" id="ss" name="riche" value="etre riche">
+            <label for="ss">Etre riche</label> <br>
+            <input type="radio" id="sss" name="riche" value="etre celebre">
+            <label for="sss">Etre celebre</label> <br>
+            <input type="radio" id="ssss" name="riche" value="etre intelligent">
+            <label for="ssss">Etre <b>encore</b> plus intelligent</label> <br>
+            <input type="radio" id="ssss" name="riche" value="autre">
+            <label for="ssss">Autre...</label>
+        </fieldset>
+        <fieldset>
+            <legend>Adresse de livraison</legend>
+            <label for="Adresse">Adresse</label>
+            <textarea name="adresse" id="" cols="30" rows="10"></textarea> <br>
+            <label for="codep">Code postal</label>
+            <input type="text" id="codep" name="codep"><br>
+            <label for="pays">Pays</label>
+            <input type="text" id="pays" name="pays"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Information CB</legend>
+                <fieldset>
+                    <legend>Type de carte bancaire</legend>
+                    <input type="radio" id="" name="s1" value="visa">
+                    <label for="s1">VISA</label> <br>
+                    <input type="radio" id="" name="s1" value="AmEx">
+                    <label for="s2">AmEx</label> <br>
+                    <input type="radio" id="" name="s1" value="mastercard">
+                    <label for="s3">MASTERCARD</label> 
+                </fieldset>
+            <label for="carte">N de carte</label>
+            <input type="text" id="" name="carte"><br>
+            <label for="codes">Code de securite</label>
+            <input type="text" id="codes" name="codes"><br>
+            <label for="nom_p">Nom du porteur</label>
+            <input type="text" id="" name="nom_p" placeholder="meme nom que sur la carte"><br><br>
+        </fieldset>
+        <fieldset>
+            
+            <input type="submit" name="sub" id="" value="J'achete">
+        </fieldset>
+    </form>
+</body>
+
+</html>
